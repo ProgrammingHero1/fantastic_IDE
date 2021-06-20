@@ -33,6 +33,7 @@ def save_as():
 
 
 def run():
+    code_output.delete(1.0, END)
     if file_path == '':
         save_prompt = Toplevel()
         text = Label(save_prompt, text='Please save your code')
